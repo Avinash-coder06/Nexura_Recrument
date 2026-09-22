@@ -1,7 +1,16 @@
 # Nexura_Recrument
-import java.util.Scanner;
 
-public class Nexura_Recrument {
+
+
+
+       
+        
+        
+        
+        
+        
+        import java.util.Scanner;
+        public class Nexura_Recrument {
     static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your first subject marks out of 100 ");
@@ -18,9 +27,7 @@ public class Nexura_Recrument {
         System.out.println();
         System.out.print("Enter your fifth subject marks out of 100 ");
         int e =  sc.nextInt();
-        System.out.println();
-
-        int total = a+b+c+d+e;
+        System.out.println();int total = a+b+c+d+e;
         System.out.println("Total is "+total);
         double percent = total/5;
         System.out.println("Percent is "+percent+"%");
@@ -33,9 +40,18 @@ public class Nexura_Recrument {
         else if(percent >=33 && percent<50)grade = "E";
         else grade = "F";
         System.out.println("your grade is "+grade);
-
         if(percent >= 33) System.out.println("Pass");
         else System.out.println("Fail");
     }
+    }
 
-}
+
+
+
+
+
+
+
+
+
+
